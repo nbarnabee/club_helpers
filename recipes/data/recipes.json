@@ -1,0 +1,26 @@
+{
+  "Generic Recipe 1": {
+    "ingredients": {
+      "milk": [1, "cup"],
+      "flour": [1, "cup"],
+      "sugar": [1, "cup"],
+      "eggs": [2, ""]
+    },
+    "instructions": ["Put in a bowl.", "Mix around.", "Pour onto ground."]
+  },
+  "Generic Recipe 2": {
+    "ingredients": {
+      "butter": [1, "TB"],
+      "flour": [1, "cup"],
+      "sugar": [1, "cup"],
+      "eggs": [2, ""]
+    },
+    "instructions": ["Put in a bowl.", "Mix around.", "Pour onto ground."]
+  },
+  "Generic Recipe 3": {
+    "ingredients": {
+      "milk": [1, "cup"]
+    },
+    "instructions": ["Pour into glass.", "Drink."]
+  }
+}
