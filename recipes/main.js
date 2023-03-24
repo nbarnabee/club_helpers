@@ -1,4 +1,4 @@
-recipes = {
+const recipes = {
   "Generic Recipe 1": {
     ingredients: {
       milk: [1, "cup"],
@@ -28,7 +28,6 @@ recipes = {
 /* ---- SELECT MENU ------ */
 
 const selectMenu = document.getElementById("select");
-options = [];
 
 for (let recipe in recipes) {
   const option = document.createElement("option");
@@ -38,33 +37,27 @@ for (let recipe in recipes) {
   selectMenu.appendChild(option);
 }
 
-function showValue(e) {
-  displayPoint = document.getElementById("display");
-  console.log(e.target.value);
-  displayPoint.textContent = items[e.target.value];
-}
-
 /* ---- CARD MAKER ------ */
 
 function makeCard(e) {
   document.getElementById("title").innerText = e.target.value;
-  ingredients = document.getElementById("ingredients");
-  instructions = document.getElementById("instructions");
+  const ingredients = document.getElementById("ingredients");
+  const instructions = document.getElementById("instructions");
   ingredients.innerHTML = ""; // clear first
   instructions.innerHTML = "";
 
-  recipe = recipes[e.target.value];
-  ingredientList = recipe.ingredients; // an object
-  instructionList = recipe.instructions; // an array
+  const recipe = recipes[e.target.value];
+  const ingredientList = recipe.ingredients; // an object
+  const instructionList = recipe.instructions; // an array
 
   for (entry in ingredientList) {
-    ingredient = document.createElement("li");
+    const ingredient = document.createElement("li");
     ingredient.textContent = `${ingredientList[entry][0]} ${ingredientList[entry][1]} ${entry}`;
     ingredients.appendChild(ingredient);
   }
 
   instructionList.forEach((entry) => {
-    instruction = document.createElement("li");
+    const instruction = document.createElement("li");
     instruction.textContent = entry;
     instructions.appendChild(instruction);
   });
