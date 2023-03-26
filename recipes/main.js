@@ -30,6 +30,9 @@ class CardMaker {
     for (let item of itemList) {
       this.setOption(item);
     }
+    document
+      .getElementById("select")
+      .addEventListener("change", this.makeCard.bind(this));
   }
   alphabetizeList() {
     const itemList = [];
@@ -51,7 +54,6 @@ class CardMaker {
     } else {
       option.value = item;
       option.textContent = item;
-      option.addEventListener("click", this.makeCard.bind(this));
     }
     selectMenu.appendChild(option);
   }
