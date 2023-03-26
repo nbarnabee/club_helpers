@@ -86,12 +86,12 @@ document
 function convertAmount() {
   amount = +document.getElementById("amount").value * 30;
   pricePerShot = 3;
-  message = `${amount} mL or ~${
-    amount / 20
-  } shots.  At ${pricePerShot} CHF per shot, that's ${
+  const convertedAmount = `${amount} mL or ~${amount / 20} shots.`;
+  const pricing = `At ${pricePerShot} CHF per shot, that's ${
     (amount / 20) * pricePerShot
   } CHF minimum.`;
-  document.getElementById("converted-amount").innerText = message;
+  document.getElementById("converted-amount").innerText = convertedAmount;
+  document.getElementById("pricing-advice").innerText = pricing;
 }
 
 const path = "./data/recipes.json";
