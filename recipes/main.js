@@ -6,6 +6,9 @@ The way the card is constructed does require a specific structure to
 the JSON data, which makes it, perhaps, not very useful to anyone other 
 than me, but it's an interesting exercise.
 
+
+Should really break the select maker and the card maker into two separate things.
+
 */
 
 class CardMaker {
@@ -23,9 +26,18 @@ class CardMaker {
   }
   populateMenu() {
     this.setOption("generic");
-    for (let item in this.data.content) {
+    const itemList = this.alphabetizeList();
+    for (let item of itemList) {
       this.setOption(item);
     }
+  }
+  alphabetizeList() {
+    const itemList = [];
+    for (let item in this.data.content) {
+      itemList.push(item);
+    }
+    itemList.sort((a, b) => a > b);
+    return itemList;
   }
   setOption(item) {
     const selectMenu = document.getElementById("select");
@@ -66,6 +78,20 @@ class CardMaker {
       instructions.appendChild(instruction);
     });
   }
+}
+
+document
+  .getElementById("conversion-button")
+  .addEventListener("click", convertAmount);
+function convertAmount() {
+  amount = +document.getElementById("amount").value * 30;
+  pricePerShot = 3;
+  message = `${amount} mL or ~${
+    amount / 20
+  } shots.  At ${pricePerShot} CHF per shot, that's ${
+    (amount / 20) * pricePerShot
+  } CHF minimum.`;
+  document.getElementById("converted-amount").innerText = message;
 }
 
 const path = "./data/recipes.json";
