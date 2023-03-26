@@ -56,6 +56,7 @@ class CardMaker {
     selectMenu.appendChild(option);
   }
   makeCard(e) {
+    document.querySelector(".recipe-card").classList.add("bordered");
     document.getElementById("title").innerText = e.target.value;
     const ingredients = document.getElementById("ingredients");
     const instructions = document.getElementById("instructions");
