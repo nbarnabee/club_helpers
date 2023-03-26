@@ -1,26 +1,137 @@
 {
-  "Generic Recipe 1": {
-    "ingredients": {
-      "milk": [1, "cup"],
-      "flour": [1, "cup"],
-      "sugar": [1, "cup"],
-      "eggs": [2, ""]
+  "title": "Recipes",
+  "content": {
+    "Amaretto Sour": {
+      "ingredients": {
+        "amaretto": [1.5, "oz"],
+        "bourbon": [0.5, "oz"],
+        "lemon juice": [1, "oz"],
+        "simple syrup": [1, "tsp"],
+        "egg white": [1, ""],
+        "Angostura bitters": [2, "dashes"]
+      },
+      "instructions": [
+        "Dry shake all ingredients.",
+        "Shake again with ice and strain.",
+        "Garnish with lemon slice and cocktail cherry."
+      ]
     },
-    "instructions": ["Put in a bowl.", "Mix around.", "Pour onto ground."]
-  },
-  "Generic Recipe 2": {
-    "ingredients": {
-      "butter": [1, "TB"],
-      "flour": [1, "cup"],
-      "sugar": [1, "cup"],
-      "eggs": [2, ""]
+    "Whiskey Sour": {
+      "ingredients": {
+        "bourbon or whiskey": [2, "oz"],
+        "lemon juice": [1, "oz"],
+        "maple or simple syrup": [0.75, "oz"]
+      },
+      "instructions": [
+        "Shake with ice and strain.",
+        "Serve with ice.",
+        "Garnish with orange peel and cocktail cherry."
+      ]
     },
-    "instructions": ["Put in a bowl.", "Mix around.", "Pour onto ground."]
-  },
-  "Generic Recipe 3": {
-    "ingredients": {
-      "milk": [1, "cup"]
+    "Boston Sour": {
+      "ingredients": {
+        "bourbon or whiskey": [2, "oz"],
+        "lemon juice": [1, "oz"],
+        "maple or simple syrup": [0.75, "oz"],
+        "egg white": [1, ""]
+      },
+      "instructions": [
+        "Dry shake all ingredients.",
+        "Shake again with ice and strain.",
+        "Garnish with lemon slice and cocktail cherry."
+      ]
     },
-    "instructions": ["Pour into glass.", "Drink."]
+    "Vodka Sour": {
+      "ingredients": {
+        "vodka": [2, "oz"],
+        "lemon juice": [1, "oz"],
+        "simple syrup": [0.5, "oz"],
+        "egg white": [1, ""],
+        "Angostura bitters": [2, "dashes"]
+      },
+      "instructions": [
+        "Dry shake all ingredients.",
+        "Shake again with ice and strain.",
+        "Garnish with lemon wedge and cocktail cherry."
+      ]
+    },
+    "Gin Sour": {
+      "ingredients": {
+        "gin": [2, "oz"],
+        "lemon juice": [1, "oz"],
+        "simple syrup": [0.5, "oz"],
+        "egg white": [1, ""]
+      },
+      "instructions": [
+        "Dry shake all ingredients.",
+        "Shake again with ice and strain.",
+        "Garnish with 1 dash bitters and lemon strip."
+      ]
+    },
+    "Tequila Sour": {
+      "ingredients": {
+        "tequila": [2, "oz"],
+        "lemon juice": [1, "oz"],
+        "lime juice": [0.5, "oz"],
+        "simple syrup": [2, "tsp"],
+        "egg white": [1, ""],
+        "Angostura bitters": [2, "dashes"]
+      },
+      "instructions": [
+        "Dry shake all ingredients.",
+        "Shake again with ice and strain.",
+        "Garnish with lime wedge and cocktail cherry."
+      ]
+    },
+    "Gin & Tonic": {
+      "ingredients": {
+        "gin": [2, "oz"],
+        "tonic water": [4, "oz"]
+      },
+      "instructions": [
+        "Add ice to glass, then gin, then garnishes.",
+        "Pour tonic water into glass.",
+        "Stir once and serve."
+      ]
+    },
+    "Dumpster Fire": {
+      "ingredients": {
+        "gin or vodka": [2, "oz"],
+        "Cointreau": [0.75, "oz"],
+        "lemon juice": [0.5, "oz"],
+        "lime juice": [0.5, "oz"],
+        "simple syrup": [0.5, "oz"],
+        "Angostura bitters": [2, "dashes"]
+      },
+      "instructions": [
+        "Shake all ingredients with ice and strain.",
+        "Garnish with an orange twist."
+      ]
+    },
+    "Martini, Dry": {
+      "ingredients": {
+        "gin": [3, "oz"],
+        "dry vermouth": [0.5, "oz"]
+      },
+      "instructions": [
+        "Combine ingredients in a cocktail mixing glass.",
+        "Add ice and stir continuously for 30 seconds.",
+        "Strain into a cocktail or martini glass.",
+        "Garnish with olive or lemon peel."
+      ]
+    },
+    "Martini, Dirty": {
+      "ingredients": {
+        "gin": [2, "oz"],
+        "dry vermouth": [0.5, "oz"],
+        "olive brine": [0.5, "oz"]
+      },
+      "instructions": [
+        "Combine ingredients in a cocktail mixing glass.",
+        "Add ice and stir continuously for 30 seconds.",
+        "Strain into a cocktail or martini glass.",
+        "Garnish with olive."
+      ]
+    }
   }
 }
