@@ -25,10 +25,11 @@ class CardMaker {
     this.data = data;
   }
   populateMenu() {
-    this.setOption("generic");
+    // Create the "title" option for the select menu
+    this.buildOptionElement("generic");
     const itemList = this.alphabetizeList();
     for (let item of itemList) {
-      this.setOption(item);
+      this.buildOptionElement(item);
     }
     document
       .getElementById("select")
@@ -42,7 +43,7 @@ class CardMaker {
     itemList.sort((a, b) => a > b);
     return itemList;
   }
-  setOption(item) {
+  buildOptionElement(item) {
     const selectMenu = document.getElementById("select");
     const option = document.createElement("option");
     if (item == "generic") {
