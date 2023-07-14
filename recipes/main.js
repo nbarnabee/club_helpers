@@ -25,7 +25,7 @@ class CardMaker {
     this.data = data;
   }
   populateMenu() {
-    // Create the "title" option for the select menu
+    // The first call to buildOptionElement() creates the default select element
     this.buildOptionElement("generic");
     const itemList = this.alphabetizeList();
     for (let item of itemList) {
