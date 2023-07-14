@@ -132,6 +132,16 @@
         "Strain into a cocktail or martini glass.",
         "Garnish with olive."
       ]
+    },
+    "Margarita": {
+      "ingredients": {
+        "tequila": [1.5, "oz"],
+        "orange liqueur": [1, "oz"],
+        "lime juice": [0.75, "oz"]
+      },
+      "instructions": [
+        "Shake ingredients with ice and strain into glass, over ice if desired."
+      ]
     }
   }
 }
