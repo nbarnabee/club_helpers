@@ -14,7 +14,8 @@
         "Dry shake all ingredients.",
         "Shake again with ice and strain.",
         "Garnish with lemon slice and cocktail cherry."
-      ]
+      ],
+      "notes": []
     },
     "Whiskey Sour": {
       "ingredients": {
@@ -26,7 +27,8 @@
         "Shake with ice and strain.",
         "Serve with ice.",
         "Garnish with orange peel and cocktail cherry."
-      ]
+      ],
+      "notes": []
     },
     "Boston Sour": {
       "ingredients": {
@@ -39,7 +41,8 @@
         "Dry shake all ingredients.",
         "Shake again with ice and strain.",
         "Garnish with lemon slice and cocktail cherry."
-      ]
+      ],
+      "notes": []
     },
     "Vodka Sour": {
       "ingredients": {
@@ -53,7 +56,8 @@
         "Dry shake all ingredients.",
         "Shake again with ice and strain.",
         "Garnish with lemon wedge and cocktail cherry."
-      ]
+      ],
+      "notes": []
     },
     "Gin Sour": {
       "ingredients": {
@@ -66,7 +70,8 @@
         "Dry shake all ingredients.",
         "Shake again with ice and strain.",
         "Garnish with 1 dash bitters and lemon strip."
-      ]
+      ],
+      "notes": []
     },
     "Tequila Sour": {
       "ingredients": {
@@ -81,7 +86,8 @@
         "Dry shake all ingredients.",
         "Shake again with ice and strain.",
         "Garnish with lime wedge and cocktail cherry."
-      ]
+      ],
+      "notes": []
     },
     "Gin & Tonic": {
       "ingredients": {
@@ -92,7 +98,8 @@
         "Add ice to glass, then gin, then garnishes.",
         "Pour tonic water into glass.",
         "Stir once and serve."
-      ]
+      ],
+      "notes": []
     },
     "Dumpster Fire": {
       "ingredients": {
@@ -106,7 +113,8 @@
       "instructions": [
         "Shake all ingredients with ice and strain.",
         "Garnish with an orange twist."
-      ]
+      ],
+      "notes": []
     },
     "Martini, Dry": {
       "ingredients": {
@@ -118,7 +126,8 @@
         "Add ice and stir continuously for 30 seconds.",
         "Strain into a cocktail or martini glass.",
         "Garnish with olive or lemon peel."
-      ]
+      ],
+      "notes": []
     },
     "Martini, Dirty": {
       "ingredients": {
@@ -131,7 +140,8 @@
         "Add ice and stir continuously for 30 seconds.",
         "Strain into a cocktail or martini glass.",
         "Garnish with olive."
-      ]
+      ],
+      "notes": []
     },
     "Margarita": {
       "ingredients": {
@@ -141,7 +151,77 @@
       },
       "instructions": [
         "Shake ingredients with ice and strain into glass, over ice if desired."
+      ],
+      "notes": []
+    },
+    "Mai Tai": {
+      "ingredients": {
+        "aged rum": [1.5, "oz"],
+        "orange liquor": [0.5, "oz"],
+        "lime juice": [0.75, "oz"],
+        "orgeat": [1, "oz"],
+        "simple syrup": [0.5, "tsp"],
+        "dark rum": [0.5, "oz"]
+      },
+      "instructions": [
+        "Shake ingredients with ice.",
+        "Strain into a glass over ice.",
+        "Float the dark rum on top."
+      ],
+      "notes": [
+        "Grand Marnier recommended but Cointreau also works.",
+        "'Aged rum' is also known as 'golden,' 'amber,' or 'anejo.'",
+        "The simple syrup is optional."
       ]
+    },
+    "Blue Hawaii": {
+      "ingredients": {
+        "white rum": [1, "oz"],
+        "vodka": [1, "oz"],
+        "blue curacao": [0.75, "oz"],
+        "pineapple juice": [2, "oz"],
+        "lime juice": [0.5, "oz"],
+        "lemon juice": [0.5, "oz"],
+        "simple syrup": [0.5, "oz"]
+      },
+      "instructions": [
+        "Shake ingredients with ice.",
+        "Strain into a glass filled with crushed ice."
+      ],
+      "notes": [
+        "Vodka optional; you can just use 100% rum."
+      ]
+    },
+    "Hawaiian Sea Breeze": {
+      "ingredients": {
+        "pineapple juice": [1.5, "oz"],
+        "vodka": [1, "oz"],
+        "cranberry juice": [3, "oz"],
+        "simple syrup": [1, "tsp"]
+      },
+      "instructions": [
+        "Add pineapple juice & vodka to a glass and stir.",
+        "Fill the glass with ice.",
+        "Mix the cranberry juice and syrup in another glass.",
+        "Tip the glass of pineapple juice and pour the cranberry juice along the side, so it glides to the bottom."
+      ],
+      "notes": [
+        "The cranberry juice should be unsweetened; if all you've got is sweetened, then omit the simple syrup.",
+        "This is also called a 'Bay Breeze.'"
+      ]
+    },
+    "Hawaiian Sunset": {
+      "ingredients": {
+        "vodka": [1.5, "oz"],
+        "lime juice": [0.5, "oz"],
+        "lemon juice": [0.5, "oz"],
+        "orgeat": [0.5, "oz"],
+        "grenadine": [1, "tsp"]
+      },
+      "instructions": [
+        "Shake on ice and strain into a chilled cocktail glass."
+      ],
+      "notes": []
     }
   }
 }
