@@ -63,12 +63,15 @@ class CardMaker {
     document.getElementById("title").innerText = e.target.value;
     const ingredients = document.getElementById("ingredients");
     const instructions = document.getElementById("instructions");
+    const notes = document.getElementById("notes");
     ingredients.innerHTML = ""; // clear first
     instructions.innerHTML = "";
+    notes.innerHTML = "";
 
     const recipe = this.data.content[e.target.value];
     const ingredientList = recipe.ingredients; // an object
     const instructionList = recipe.instructions; // an array
+    const notesList = recipe.notes; // an array
 
     for (let entry in ingredientList) {
       const ingredient = document.createElement("li");
@@ -81,6 +84,14 @@ class CardMaker {
       instruction.textContent = entry;
       instructions.appendChild(instruction);
     });
+
+    if (notesList.length > 0) {
+      notesList.forEach((entry) => {
+       const note = document.createElement("li");
+       note.textContent = entry;
+       notes.appendChild(note);
+      });
+    }
   }
 }
 
