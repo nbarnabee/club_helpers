@@ -171,6 +171,23 @@
       "notes": [
         "Grand Marnier recommended but Cointreau also works.",
         "'Aged rum' is also known as 'golden,' 'amber,' or 'anejo.'",
+        "The simple syrup is optional (and probably unnecessary)."
+      ]
+    },
+    "Mai Tai (Kurt style)": {
+      "ingredients": {
+        "dark rum": [1.5, "oz"],
+        "orange liquor": [0.75, "oz"],
+        "lime juice": [0.3, "oz"],
+        "orgeat": [0.5, "oz"],
+      },
+      "instructions": [
+        "Shake ingredients with ice.",
+        "Strain into a glass over ice."
+      ],
+      "notes": [
+        "Grand Marnier recommended but Cointreau also works.",
+        "'Aged rum' is also known as 'golden,' 'amber,' or 'anejo.'",
         "The simple syrup is optional."
       ]
     },
@@ -189,7 +206,9 @@
         "Strain into a glass filled with crushed ice."
       ],
       "notes": [
-        "Vodka optional; you can just use 100% rum."
+        "Vodka optional; you can just use 100% rum.  Some vodkas give it an unpleasant tang.  (Or maybe we were just using bad vodka.)",
+        "The original recipe called for 0.5 oz simple syrup, but even without the syrup the cocktail was astonishingly sweet.",
+        "But we also didn't use the lemon or lime, which might have made a difference."
       ]
     },
     "Hawaiian Sea Breeze": {
@@ -216,12 +235,14 @@
         "lime juice": [0.5, "oz"],
         "lemon juice": [0.5, "oz"],
         "orgeat": [0.5, "oz"],
-        "grenadine": [1, "tsp"]
+        "grenadine": [2, "tsp"]
       },
       "instructions": [
         "Shake on ice and strain into a chilled cocktail glass."
       ],
-      "notes": []
+      "notes": [
+        "Original recipe called for 1 tsp grenadine, but 2 tsp improved the color & the taste."
+      ]
     }
   }
 }
