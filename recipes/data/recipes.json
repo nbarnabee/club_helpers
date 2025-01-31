@@ -243,6 +243,36 @@
       "notes": [
         "Original recipe called for 1 tsp grenadine, but 2 tsp improved the color & the taste."
       ]
+    },
+    "Manhattan": {
+      "ingredients": {
+        "rye whiskey": [2, "oz"],
+        "sweet vermouth": [1, "oz"],
+        "Angostura bitters": [2, "dashes"]
+      },
+      "instructions": [
+        "Add ingredients to an ice-filled mixing glass and stir.",
+        "Strain and serve with a cocktail cherry garnish."
+      ],
+      "notes": [
+        "Rye whiskey is 'traditional' but a good bourbon will also work."
+      ]
+    },
+    "Cosmopolitan": {
+      "ingredients": {
+        "vodka": [2, "oz"],
+        "orange liqueur": [1.5, "oz"],
+        "lime juice": [1, "TB"],
+        "cranberry juice": [2, "oz"]
+      },
+      "instructions": [
+        "Add ingredients to an ice-filled shaker and shake.",
+        "Strain into a martini glass.  Garnish with lime wedge or lemon twist."
+      ],
+      "notes": [
+        "Use high quality spirits for the best effect.  Cointreau is a better choice than Triple Sec.  Gran Marnier can also work.",
+        "For this one, don't go for unsweetened cranberry; it'll be way too tart.  Go sweetened or with a blend."
+      ]
     }
   }
 }
