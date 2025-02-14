@@ -273,6 +273,20 @@
         "Use high quality spirits for the best effect.  Cointreau is a better choice than Triple Sec.  Gran Marnier can also work.",
         "For this one, don't go for unsweetened cranberry; it'll be way too tart.  Go sweetened or with a blend."
       ]
+    },
+    "Espresso Martini": {
+      "ingredients": {
+        "espresso": [1, "oz"],
+        "coffee liqueur": [1, "oz"],
+        "vodka": [2, "oz"]
+      },
+      "instructions": [
+        "Add ingredients to an ice-filled shaker and shake.",
+        "Strain into a martini glass.  Garnish with two or three coffee beans."
+      ],
+      "notes": [
+        "Use high quality vodka for the best effect.  Shake VERY WELL."
+      ]
     }
   }
 }
